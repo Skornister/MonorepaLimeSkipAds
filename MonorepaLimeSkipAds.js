@@ -13,7 +13,7 @@
 const elementsToRemove = [
     { type: 'xpath', value: "//video[@class='w-full h-full bg-backdrop']/..", description: 'Ads container' },
     { type: 'id', value: 'creativeWrapper', description: 'CreativeWrapper container' },
-    { type: 'xpath', value: '//*[contains(text(), 'The quick brown fox jumps over the lazy dog')]', description: 'Text \'The quick brown fox jumps over the lazy dog\'' }
+    { type: 'xpath', value: "//*[contains(text(), 'The quick brown fox jumps over the lazy dog')]", description: "Text 'The quick brown fox jumps over the lazy dog'" }
 ];
 
 function removeElement(element, description) {
